@@ -120,41 +120,41 @@ const topicData = [
         name: "Karatun Azumisdis jhzsdb",
         link: "karatu-1.mp4",
     },
-    {
-        name: "2some",
-        link: "karatu-1.mp4",
-    },
-    {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    }, {
-        name: "Karatun Azumisdis jhzsdb",
-        link: "karatu-1.mp4",
-    },
+    // {
+    //     name: "2some",
+    //     link: "karatu-1.mp4",
+    // },git bra
+    // {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // }, {
+    //     name: "Karatun Azumisdis jhzsdb",
+    //     link: "karatu-1.mp4",
+    // },
     // Add more topic data as needed...
 ];
 
