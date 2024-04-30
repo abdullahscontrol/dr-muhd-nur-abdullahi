@@ -4,20 +4,20 @@ const audioData = [
   {
     logo: "musicc.PNG",
     title: "Fatawowin Ramadan",
-    content: "001-aud.mp3",
+    content: "00aud.mp3",
   },
   {
     logo: "musicc.PNG",
     title: "Fatawowin Ramadan",
-    content: "001-aud.mp3",
+    content: "00aud.mp3",
   }, {
     logo: "musicc.PNG",
     title: "Fatawowin Ramadan",
-    content: "001-aud.mp3",
+    content: "00aud.mp3",
   }, {
     logo: "musicc.PNG",
     title: "Fatawowin Ramadan",
-    content: "001-aud.mp3",
+    content: "00aud.mp3",
   },
 
 ]

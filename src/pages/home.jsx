@@ -105,7 +105,7 @@ function TitleContainer() {
   return (<div className="header2">
 
     <div className="title-container">
-      <div className="text">Welcome to Dr Muhd Nur Abdullahi Page</div>
+      <div className="text"><ExampleComponent2/></div>
     </div>
   </div>
   )
@@ -122,7 +122,29 @@ export function Hero() {
   )
 }
 import { TypeAnimation } from 'react-type-animation';
-
+const ExampleComponent2 = () => {
+  return (
+    <TypeAnimation
+      sequence={[
+         // Same substring at the start will only be typed out once, initially
+         'Welcome to Dr Muhd Nur Abdullahi ',
+         1000, // wait 1s before replacing "Mice" with "Hamsters"
+         'Page',
+         1000,
+          // 'Abdullahi Page',
+        //  1000,
+         // 'We produce food for Guinea Pigs',
+         // 1000,
+         // 'We produce food for Chinchillas',
+         // 1000
+      ]}
+      wrapper="span"
+      speed={1}
+      style={{ fontSize: '3rem', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+  );
+};
 const ExampleComponent = () => {
   return (
     <TypeAnimation

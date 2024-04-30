@@ -272,7 +272,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 20rem;
-  box-shadow: 20px 20px 60px #1d1d1d;
+  /* box-shadow: 20px 20px 60px #1d1d1d; */
 }
 
 
@@ -297,7 +297,7 @@ body {
   background-color: #969393;
   border-radius: .4rem;
   padding: 1rem;
-  box-shadow: 20px 20px 60px #807f7f;
+  /* box-shadow: 20px 20px 60px #807f7f; */
 
 }
 
@@ -313,8 +313,9 @@ body {
 }
 
 .another-topic .topic-image img {
-  width: 100%;
+  width: 90%;
   height: 22rem;
+  padding:0;
 }
 
 .callout {
@@ -327,7 +328,7 @@ body {
 
 .calloutinside {
   /* border: 3px solid red; */
-  box-shadow: 20px 20px 60px #a3a2a2;
+  /* box-shadow: 20px 20px 60px #a3a2a2; */
   /* background-color: #d86e0b; */
   background-color: #4b1e02;
   display: flex;
@@ -352,7 +353,7 @@ body {
 }
 
 .newsandupdates {
-  box-shadow: 20px 20px 60px #9c9c9c;
+  /* box-shadow: 20px 20px 60px #9c9c9c; */
 
   color: #fff;
   background-color: #8b8a8a;
@@ -460,10 +461,11 @@ body {
     padding: 1rem;
   }
 
+
   .header .header-side h1 {
     font-size: 2rem !important;
     margin: 0;
-    color: red;
+    color: var(--color-background2);
   }
 
   .header .header-side a {
@@ -482,7 +484,12 @@ body {
     color: var(--color-background2) !important;
     border: 1px solid var(--color-background2);
   }
-
+  .header2 .title-container .index-module_type__E-SaG {
+    /* padding-top: 5rem; */
+    color: #fff;
+    font-size:1.6rem !important;
+    font-family: emoji !important;
+  }
   .title-container {
     width: 80vw;
     height: 20vh;
@@ -541,18 +548,18 @@ body {
     flex-direction: column;
     padding: 0 !important;
     justify-content: space-between;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
   }
 
   .image-topic {
     width: 100% !important;
     /* border: 3px solid red; */
-    padding: 0 !important;
+    padding: 1rem !important;
   }
 
   .img-content {
-    width: 100vw !important;
+    width: 90vw !important;
 
     /* border: 3px solid rebeccapurple !important; */
   }
