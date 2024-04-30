@@ -436,10 +436,15 @@ body {
 }
 
 @media screen and (max-width:500px) {
-  .navbar .image {
+
+  /* .navbar .image {
     background-image: url(/public/back2.avif);
     background-repeat: no-repeat;
     background-size: auto;
+  } */
+  .firstimages {
+    padding-left: 1rem;
+    display: none;
   }
 
   .image .index-module_type__E-SaG {
@@ -464,10 +469,6 @@ body {
     width: 3rem;
   }
 
-  .hero-side {
-
-    display: none;
-  }
 
   .hero-side-img img {
     display: none;
