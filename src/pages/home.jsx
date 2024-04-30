@@ -33,10 +33,24 @@ const anotherData = [
 
 ];
 import { Link } from "react-router-dom"
-
+function Header() {
+  return (
+    <div className="header">
+      <div className="header-side logo"><h1>Dr. Muhd Nur </h1></div>
+      <div className="header-side">
+        <Link to='/home' className="signlink">Home</Link>
+        <Link to='/darrusa' className="signlink">Darrusa</Link>
+        <Link to='/about' className="signlink">Research</Link>
+        <Link to='/contact' className="signlink">Achivments</Link> <hr className="hr" />
+      </div>
+    </div>
+  )
+}
 export default function Home() {
   return (
     <div className="navbar">
+      <Header />
+      <TitleContainer />
       <div className="image">
         <div className="links">
           <Link to='/about' className="signlink">Programs</Link>
@@ -59,18 +73,20 @@ export default function Home() {
 
           <div className=""><button>Contacts</button></div>
         </div>
-        <div className="images"><img src="hero3-nobg.png" alt="" id="hero" /></div>
+        <div className="images">
+          {/* <TitleContainer /> */}
+          <img src="hero3-nobg.png" alt="" id="hero" /></div>
         {/* <div className="name">Dr. Muhammad Nura Abdullahi </div> */}
         {/* <div className="professiom">Dr. Islamic Shariah Law</div> */}
       </div>
-      <div className="mobile-links">
+      {/* <div className="mobile-links">
         <div className="">Pages</div>
         <div className="">
           <Link to='/darrusa' className="signlink">
             <img src="menus1.png" alt="" />
           </Link>
         </div>
-      </div>
+      </div> */}
       <Hero />
 
       <div className="image-central">{topicData.map(img => <Img topicObj={img} />)}</div>
@@ -85,7 +101,15 @@ export default function Home() {
     </div>
   )
 }
+function TitleContainer() {
+  return (<div className="header2">
 
+    <div className="title-container">
+      <div className="text">Welcome to Dr Muhd Nur Abdullahi Page</div>
+    </div>
+  </div>
+  )
+}
 export function Hero() {
   return (
     <div className="hero">
