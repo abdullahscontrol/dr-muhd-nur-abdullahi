@@ -469,6 +469,9 @@ body {
     width: 3rem;
   }
 
+  .hero-side {
+    display: none;
+  }
 
   .hero-side-img img {
     display: none;
