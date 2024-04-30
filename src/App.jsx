@@ -13,7 +13,6 @@ export default function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <Navar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

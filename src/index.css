@@ -17,7 +17,7 @@ body {
 
 .navbar .image {
   background: var(--color-background2);
-  height: 55vh;
+  height: 75vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -99,8 +99,8 @@ body {
 .links a:hover {
   border-bottom: 3px solid #4b1e02;
   text-decoration: none;
-  /* background-color: #fff; */
-  color: #692902;
+  background-color: var(--color-background);
+  color: #fff;
   height: 100;
   transition: .3s;
   /* padding: 1rem; */
@@ -437,7 +437,33 @@ body {
   display: none;
 }
 
+.title-container2 {
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 60vw;
+  height: 20vh;
+  padding: 1rem;
+  display: flex;
+  border-radius: 0.7rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.title-container2 .index-module_type__E-SaG {
+  font-weight: 600;
+  color: #462303;
+  font-size: 3.6rem !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  padding-top: 0;
+}
+
 .title-container {
+  display: none;
+
+}
+
+.header {
   display: none;
 }
 

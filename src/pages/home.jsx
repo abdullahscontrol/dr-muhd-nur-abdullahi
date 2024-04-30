@@ -61,7 +61,12 @@ export default function Home() {
           {/* <Link to='/contact' className="signlink">Religious Activity</Link> */}
           <Link to='/contact' className="signlink">Media</Link>
         </div>
-        <div className="images firstimages"><ExampleComponent className='some' /> <br />
+        <TitleContainer />
+        {/* <ExampleComponent className='some' />  */}
+        <div className="images firstimages"><br />
+          <div className="title-container2">
+            <div className="text"><ExampleComponent2 /></div>
+          </div>
           <br /><br />
           <div className="">
             Director General, Khirat Islamic Trust. <br />
@@ -98,14 +103,14 @@ export default function Home() {
       <div className="newsand"><Newsandupdate /></div>
       <div className="footer"><Footer /></div>
       <div className="contact"><Contact /></div>
-    </div>
+    </div >
   )
 }
 function TitleContainer() {
   return (<div className="header2">
 
     <div className="title-container">
-      <div className="text"><ExampleComponent2/></div>
+      <div className="text"><ExampleComponent2 /></div>
     </div>
   </div>
   )
@@ -126,17 +131,17 @@ const ExampleComponent2 = () => {
   return (
     <TypeAnimation
       sequence={[
-         // Same substring at the start will only be typed out once, initially
-         'Welcome to Dr Muhd Nur Abdullahi ',
-         1000, // wait 1s before replacing "Mice" with "Hamsters"
-         'Page',
-         1000,
-          // 'Abdullahi Page',
+        // Same substring at the start will only be typed out once, initially
+        'Welcome to Dr Muhd Nur Abdullahi ',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'Page',
+        1000,
+        // 'Abdullahi Page',
         //  1000,
-         // 'We produce food for Guinea Pigs',
-         // 1000,
-         // 'We produce food for Chinchillas',
-         // 1000
+        // 'We produce food for Guinea Pigs',
+        // 1000,
+        // 'We produce food for Chinchillas',
+        // 1000
       ]}
       wrapper="span"
       speed={1}
